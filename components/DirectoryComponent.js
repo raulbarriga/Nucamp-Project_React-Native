@@ -13,7 +13,11 @@ class Directory extends Component {
     }
 
     static navigationOptions = {
-        title: 'Directory'
+        title: 'Directory',
+        headerTitleStyle: { 
+            textAlign:"center", 
+            flex:1 
+        }
     };
 
     render() {
