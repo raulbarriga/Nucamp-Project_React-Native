@@ -12,11 +12,7 @@ class Contact extends Component {
     }
 
     static navigationOptions = {
-        title: 'Contact Us',
-        headerTitleStyle: { 
-            textAlign:"center", 
-            flex:1 
-        }
+        title: 'Contact Us'
     };
 
     render() {
@@ -25,11 +21,11 @@ class Contact extends Component {
                 <Card title="Contact Information" wrapperStyle={{margin: 20}}>
                     <View>
                         <Text>
-                                1 Nucamp Way
-                            </Text>
-                            <Text>
-                                Seattle, WA 98001
-                            </Text>
+                            1 Nucamp Way
+                        </Text>
+                        <Text>
+                            Seattle, WA 98001
+                        </Text>
                         <Text style={{marginBottom: 10}}>
                             U.S.A.
                         </Text>

@@ -33,11 +33,7 @@ class Home extends Component {
     }
 
     static navigationOptions = {
-        title: 'Home',
-        headerTitleStyle: { 
-            textAlign:"center", 
-            flex:1 
-        }
+        title: 'Home'
     }
 
     render() {

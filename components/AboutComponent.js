@@ -25,11 +25,7 @@ class About extends Component {
     }
 
     static navigationOptions = {
-        title: 'About Us',
-        headerTitleStyle: { 
-            textAlign:"center", 
-            flex:1 
-        }
+        title: 'About Us'
     };
 
       renderPartnerItem = ({item}) => {
